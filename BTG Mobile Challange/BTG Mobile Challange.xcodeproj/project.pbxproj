@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40A979B3545423867DE7E2DA /* Pods_BTG_Mobile_ChallangeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B5826FB29BD769A277E784 /* Pods_BTG_Mobile_ChallangeTests.framework */; };
+		6621355B4D917EB665A7EFD5 /* Pods_BTG_Mobile_Challange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5CA6E72B44CFC2A3E2A6F5 /* Pods_BTG_Mobile_Challange.framework */; };
+		7B1F3FEE25EF27A600B3D655 /* CurrencyConverterQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F3FED25EF27A600B3D655 /* CurrencyConverterQTests.swift */; };
+		7B1F3FF425EF27C000B3D655 /* CurrencyConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F3FF325EF27C000B3D655 /* CurrencyConverterTests.swift */; };
 		7B56E289251E7F5F002409A7 /* CurrencyListSortModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B56E288251E7F5F002409A7 /* CurrencyListSortModalViewController.swift */; };
 		7B56E28D251E7F90002409A7 /* CurrencyListSortModalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B56E28C251E7F90002409A7 /* CurrencyListSortModalViewController.storyboard */; };
 		7B56E293251E9150002409A7 /* CurrencyListSortEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B56E292251E9150002409A7 /* CurrencyListSortEnum.swift */; };
@@ -16,7 +20,6 @@
 		7B5EC4FA251C09880020FF6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5EC4F8251C09880020FF6F /* Main.storyboard */; };
 		7B5EC4FC251C098B0020FF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B5EC4FB251C098B0020FF6F /* Assets.xcassets */; };
 		7B5EC4FF251C098B0020FF6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5EC4FD251C098B0020FF6F /* LaunchScreen.storyboard */; };
-		7B5EC50A251C098B0020FF6F /* BTG_Mobile_ChallangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EC509251C098B0020FF6F /* BTG_Mobile_ChallangeTests.swift */; };
 		7B5EC516251C0B520020FF6F /* DismissKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EC515251C0B520020FF6F /* DismissKeyboardExtension.swift */; };
 		7B5EC51D251C0BF20020FF6F /* CurrencyConverterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EC51C251C0BF20020FF6F /* CurrencyConverterModel.swift */; };
 		7B5EC51F251C0C170020FF6F /* CurrencyListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EC51E251C0C170020FF6F /* CurrencyListModel.swift */; };
@@ -37,6 +40,10 @@
 		7B5EC546251C13C50020FF6F /* CurrencyConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EC545251C13C50020FF6F /* CurrencyConverterViewController.swift */; };
 		7B5EC54A251C141E0020FF6F /* CurrencyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EC549251C141E0020FF6F /* CurrencyListViewModel.swift */; };
 		7B5EC54D251C144E0020FF6F /* CurrencyConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EC54C251C144E0020FF6F /* CurrencyConverterViewModel.swift */; };
+		7BA03DC125E4875800BDE679 /* CurrencyConverterServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA03DC025E4875800BDE679 /* CurrencyConverterServiceMock.swift */; };
+		7BA03DC625E4889500BDE679 /* JSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA03DC525E4889500BDE679 /* JSONReader.swift */; };
+		7BA03DCA25E48B2A00BDE679 /* 200-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BA03DC925E48B2A00BDE679 /* 200-response.json */; };
+		7BA03DD025E48E5500BDE679 /* BaseServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA03DCF25E48E5500BDE679 /* BaseServiceMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1040022B3529BA143F6412C6 /* Pods-BTG Mobile Challange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTG Mobile Challange.debug.xcconfig"; path = "Target Support Files/Pods-BTG Mobile Challange/Pods-BTG Mobile Challange.debug.xcconfig"; sourceTree = "<group>"; };
+		115365F1B38AE7A4A1373315 /* Pods-BTG Mobile Challange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTG Mobile Challange.release.xcconfig"; path = "Target Support Files/Pods-BTG Mobile Challange/Pods-BTG Mobile Challange.release.xcconfig"; sourceTree = "<group>"; };
+		7B1F3FED25EF27A600B3D655 /* CurrencyConverterQTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterQTests.swift; sourceTree = "<group>"; };
+		7B1F3FF325EF27C000B3D655 /* CurrencyConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterTests.swift; sourceTree = "<group>"; };
 		7B56E288251E7F5F002409A7 /* CurrencyListSortModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListSortModalViewController.swift; sourceTree = "<group>"; };
 		7B56E28C251E7F90002409A7 /* CurrencyListSortModalViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CurrencyListSortModalViewController.storyboard; sourceTree = "<group>"; };
 		7B56E292251E9150002409A7 /* CurrencyListSortEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListSortEnum.swift; sourceTree = "<group>"; };
@@ -62,7 +73,6 @@
 		7B5EC4FE251C098B0020FF6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B5EC500251C098B0020FF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B5EC505251C098B0020FF6F /* BTG Mobile ChallangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BTG Mobile ChallangeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B5EC509251C098B0020FF6F /* BTG_Mobile_ChallangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTG_Mobile_ChallangeTests.swift; sourceTree = "<group>"; };
 		7B5EC50B251C098B0020FF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B5EC515251C0B520020FF6F /* DismissKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardExtension.swift; sourceTree = "<group>"; };
 		7B5EC51C251C0BF20020FF6F /* CurrencyConverterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterModel.swift; sourceTree = "<group>"; };
@@ -84,6 +94,14 @@
 		7B5EC545251C13C50020FF6F /* CurrencyConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewController.swift; sourceTree = "<group>"; };
 		7B5EC549251C141E0020FF6F /* CurrencyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListViewModel.swift; sourceTree = "<group>"; };
 		7B5EC54C251C144E0020FF6F /* CurrencyConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewModel.swift; sourceTree = "<group>"; };
+		7BA03DC025E4875800BDE679 /* CurrencyConverterServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterServiceMock.swift; sourceTree = "<group>"; };
+		7BA03DC525E4889500BDE679 /* JSONReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReader.swift; sourceTree = "<group>"; };
+		7BA03DC925E48B2A00BDE679 /* 200-response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "200-response.json"; sourceTree = "<group>"; };
+		7BA03DCF25E48E5500BDE679 /* BaseServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseServiceMock.swift; sourceTree = "<group>"; };
+		D4AA6B2C309B153446A57DEB /* Pods-BTG Mobile ChallangeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTG Mobile ChallangeTests.debug.xcconfig"; path = "Target Support Files/Pods-BTG Mobile ChallangeTests/Pods-BTG Mobile ChallangeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8B5826FB29BD769A277E784 /* Pods_BTG_Mobile_ChallangeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTG_Mobile_ChallangeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5CA6E72B44CFC2A3E2A6F5 /* Pods_BTG_Mobile_Challange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTG_Mobile_Challange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA309D3EB34A969CFF8B0242 /* Pods-BTG Mobile ChallangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTG Mobile ChallangeTests.release.xcconfig"; path = "Target Support Files/Pods-BTG Mobile ChallangeTests/Pods-BTG Mobile ChallangeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6621355B4D917EB665A7EFD5 /* Pods_BTG_Mobile_Challange.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +117,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A979B3545423867DE7E2DA /* Pods_BTG_Mobile_ChallangeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32D27883AD5ADB0A3F5E3717 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF5CA6E72B44CFC2A3E2A6F5 /* Pods_BTG_Mobile_Challange.framework */,
+				E8B5826FB29BD769A277E784 /* Pods_BTG_Mobile_ChallangeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7B56E290251E912D002409A7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +163,8 @@
 				7B5EC4F1251C09880020FF6F /* BTG Mobile Challange */,
 				7B5EC508251C098B0020FF6F /* BTG Mobile ChallangeTests */,
 				7B5EC4F0251C09880020FF6F /* Products */,
+				E4C683CDF93C508A56843193 /* Pods */,
+				32D27883AD5ADB0A3F5E3717 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,7 +196,8 @@
 		7B5EC508251C098B0020FF6F /* BTG Mobile ChallangeTests */ = {
 			isa = PBXGroup;
 			children = (
-				7B5EC509251C098B0020FF6F /* BTG_Mobile_ChallangeTests.swift */,
+				7BA03DC425E4888800BDE679 /* Structure */,
+				7BA03DB225E486BF00BDE679 /* CurrencyConverter */,
 				7B5EC50B251C098B0020FF6F /* Info.plist */,
 			);
 			path = "BTG Mobile ChallangeTests";
@@ -320,6 +352,37 @@
 			path = CurrencyConverter;
 			sourceTree = "<group>";
 		};
+		7BA03DB225E486BF00BDE679 /* CurrencyConverter */ = {
+			isa = PBXGroup;
+			children = (
+				7B1F3FED25EF27A600B3D655 /* CurrencyConverterQTests.swift */,
+				7B1F3FF325EF27C000B3D655 /* CurrencyConverterTests.swift */,
+				7BA03DC025E4875800BDE679 /* CurrencyConverterServiceMock.swift */,
+				7BA03DC925E48B2A00BDE679 /* 200-response.json */,
+			);
+			path = CurrencyConverter;
+			sourceTree = "<group>";
+		};
+		7BA03DC425E4888800BDE679 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				7BA03DC525E4889500BDE679 /* JSONReader.swift */,
+				7BA03DCF25E48E5500BDE679 /* BaseServiceMock.swift */,
+			);
+			path = Structure;
+			sourceTree = "<group>";
+		};
+		E4C683CDF93C508A56843193 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1040022B3529BA143F6412C6 /* Pods-BTG Mobile Challange.debug.xcconfig */,
+				115365F1B38AE7A4A1373315 /* Pods-BTG Mobile Challange.release.xcconfig */,
+				D4AA6B2C309B153446A57DEB /* Pods-BTG Mobile ChallangeTests.debug.xcconfig */,
+				FA309D3EB34A969CFF8B0242 /* Pods-BTG Mobile ChallangeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -327,6 +390,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B5EC50E251C098B0020FF6F /* Build configuration list for PBXNativeTarget "BTG Mobile Challange" */;
 			buildPhases = (
+				F4879F1598ECFC6CAB2E403B /* [CP] Check Pods Manifest.lock */,
 				7B5EC4EB251C09880020FF6F /* Sources */,
 				7B5EC4EC251C09880020FF6F /* Frameworks */,
 				7B5EC4ED251C09880020FF6F /* Resources */,
@@ -344,9 +408,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B5EC511251C098B0020FF6F /* Build configuration list for PBXNativeTarget "BTG Mobile ChallangeTests" */;
 			buildPhases = (
+				522DE0B92284A94809E03730 /* [CP] Check Pods Manifest.lock */,
 				7B5EC501251C098B0020FF6F /* Sources */,
 				7B5EC502251C098B0020FF6F /* Frameworks */,
 				7B5EC503251C098B0020FF6F /* Resources */,
+				443E4B0B4A528D5C41E3614B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -373,6 +439,7 @@
 					};
 					7B5EC504251C098B0020FF6F = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1240;
 						TestTargetID = 7B5EC4EE251C09880020FF6F;
 					};
 				};
@@ -415,10 +482,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BA03DCA25E48B2A00BDE679 /* 200-response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		443E4B0B4A528D5C41E3614B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BTG Mobile ChallangeTests/Pods-BTG Mobile ChallangeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BTG Mobile ChallangeTests/Pods-BTG Mobile ChallangeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BTG Mobile ChallangeTests/Pods-BTG Mobile ChallangeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		522DE0B92284A94809E03730 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BTG Mobile ChallangeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4879F1598ECFC6CAB2E403B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BTG Mobile Challange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B5EC4EB251C09880020FF6F /* Sources */ = {
@@ -454,7 +586,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B5EC50A251C098B0020FF6F /* BTG_Mobile_ChallangeTests.swift in Sources */,
+				7BA03DC625E4889500BDE679 /* JSONReader.swift in Sources */,
+				7BA03DD025E48E5500BDE679 /* BaseServiceMock.swift in Sources */,
+				7B1F3FF425EF27C000B3D655 /* CurrencyConverterTests.swift in Sources */,
+				7B1F3FEE25EF27A600B3D655 /* CurrencyConverterQTests.swift in Sources */,
+				7BA03DC125E4875800BDE679 /* CurrencyConverterServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +740,7 @@
 		};
 		7B5EC50F251C098B0020FF6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1040022B3529BA143F6412C6 /* Pods-BTG Mobile Challange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -623,6 +760,7 @@
 		};
 		7B5EC510251C098B0020FF6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 115365F1B38AE7A4A1373315 /* Pods-BTG Mobile Challange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -642,9 +780,11 @@
 		};
 		7B5EC512251C098B0020FF6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4AA6B2C309B153446A57DEB /* Pods-BTG Mobile ChallangeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GAQAM8PW76;
 				INFOPLIST_FILE = "BTG Mobile ChallangeTests/Info.plist";
@@ -656,6 +796,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arousal.bribe.BTG-Mobile-ChallangeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTG Mobile Challange.app/BTG Mobile Challange";
@@ -664,9 +805,11 @@
 		};
 		7B5EC513251C098B0020FF6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA309D3EB34A969CFF8B0242 /* Pods-BTG Mobile ChallangeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GAQAM8PW76;
 				INFOPLIST_FILE = "BTG Mobile ChallangeTests/Info.plist";

@@ -40,6 +40,7 @@
 		7B5EC546251C13C50020FF6F /* CurrencyConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EC545251C13C50020FF6F /* CurrencyConverterViewController.swift */; };
 		7B5EC54A251C141E0020FF6F /* CurrencyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EC549251C141E0020FF6F /* CurrencyListViewModel.swift */; };
 		7B5EC54D251C144E0020FF6F /* CurrencyConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EC54C251C144E0020FF6F /* CurrencyConverterViewModel.swift */; };
+		7B74900125EF2B2F00F554DB /* 400-invalid.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B74900025EF2B2F00F554DB /* 400-invalid.json */; };
 		7BA03DC125E4875800BDE679 /* CurrencyConverterServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA03DC025E4875800BDE679 /* CurrencyConverterServiceMock.swift */; };
 		7BA03DC625E4889500BDE679 /* JSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA03DC525E4889500BDE679 /* JSONReader.swift */; };
 		7BA03DCA25E48B2A00BDE679 /* 200-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BA03DC925E48B2A00BDE679 /* 200-response.json */; };
@@ -94,6 +95,7 @@
 		7B5EC545251C13C50020FF6F /* CurrencyConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewController.swift; sourceTree = "<group>"; };
 		7B5EC549251C141E0020FF6F /* CurrencyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListViewModel.swift; sourceTree = "<group>"; };
 		7B5EC54C251C144E0020FF6F /* CurrencyConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewModel.swift; sourceTree = "<group>"; };
+		7B74900025EF2B2F00F554DB /* 400-invalid.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "400-invalid.json"; sourceTree = "<group>"; };
 		7BA03DC025E4875800BDE679 /* CurrencyConverterServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterServiceMock.swift; sourceTree = "<group>"; };
 		7BA03DC525E4889500BDE679 /* JSONReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReader.swift; sourceTree = "<group>"; };
 		7BA03DC925E48B2A00BDE679 /* 200-response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "200-response.json"; sourceTree = "<group>"; };
@@ -359,6 +361,7 @@
 				7B1F3FF325EF27C000B3D655 /* CurrencyConverterTests.swift */,
 				7BA03DC025E4875800BDE679 /* CurrencyConverterServiceMock.swift */,
 				7BA03DC925E48B2A00BDE679 /* 200-response.json */,
+				7B74900025EF2B2F00F554DB /* 400-invalid.json */,
 			);
 			path = CurrencyConverter;
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B74900125EF2B2F00F554DB /* 400-invalid.json in Resources */,
 				7BA03DCA25E48B2A00BDE679 /* 200-response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

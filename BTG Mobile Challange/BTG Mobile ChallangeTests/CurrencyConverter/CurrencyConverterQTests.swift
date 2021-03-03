@@ -17,7 +17,12 @@ class CurrencyConverterQTests: QuickSpec {
     override func spec() {
 
         beforeEach {
+            self.mock.fileName = "200-response"
             self.sut = CurrencyConverterViewModel(servicesProvider: self.mock)
+        }
+
+        afterEach {
+            self.sut?.convertedValue = nil
         }
 
         context("initial") {
@@ -30,6 +35,26 @@ class CurrencyConverterQTests: QuickSpec {
             it("value is not nil") {
                 self.sut?.convert(from: "BRL", to: "USD", value: 100)
                 expect(self.sut?.convertedValue).toEventuallyNot(beNil())
+            }
+        }
+
+        context("convert invalid currency") {
+            it("value is nil") {
+                self.sut?.convert(from: "BRL", to: "BANANA", value: 100)
+                expect(self.sut?.convertedValue).to(beNil())
+            }
+        }
+
+        context("convert invalid response") {
+
+            beforeEach {
+                self.mock.fileName = "400-invalid"
+                self.sut = CurrencyConverterViewModel(servicesProvider: self.mock)
+            }
+
+            it("value is nil") {
+                self.sut?.convert(from: "BRL", to: "BANANA", value: 100)
+                expect(self.sut?.convertedValue).to(beNil())
             }
         }
     }

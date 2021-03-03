@@ -11,21 +11,39 @@ import XCTest
 
 class CurrencyConverterTests: XCTestCase {
 
-    private var mock = CurrencyConverterServiceMock()
+    private var mock: CurrencyConverterServiceMock?
     private var sut: CurrencyConverterViewModel?
 
     override func setUp() {
+        mock = CurrencyConverterServiceMock()
+        guard let mock = mock else {
+            XCTFail("failed to load mock file")
+            return
+        }
         sut = CurrencyConverterViewModel(servicesProvider: mock)
     }
+//
+//    func testConvertedValueIsInitiallNil() {
+//        XCTAssertNil(sut?.convertedValue)
+//    }
+//
+//    func testConvertValidCurrency() {
+//        XCTAssertNil(sut?.convertedValue)
+//        sut?.convert(from: "BRL", to: "USD", value: 100)
+//        XCTAssertNotNil(sut?.convertedValue)
+//    }
+//
+//    func testConvertInvalidCurrency() {
+//        XCTAssertNil(sut?.convertedValue)
+//        sut?.convert(from: "BRL", to: "BANANA", value: 100)
+//        XCTAssertNil(sut?.convertedValue)
+//    }
 
-    func testConvertedValueIsInitiallNil() {
+    func testConvertInvalidResponse() {
         XCTAssertNil(sut?.convertedValue)
-    }
-
-    func testConvertValidCurrency() {
+        mock?.fileName = "400-invalid"
+        sut?.convert(from: "BRL", to: "BANANA", value: 100)
         XCTAssertNil(sut?.convertedValue)
-        sut?.convert(from: "BRL", to: "USD", value: 100)
-        XCTAssertNotNil(sut?.convertedValue)
     }
 
 }
